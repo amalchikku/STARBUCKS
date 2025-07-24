@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Starbucks Secret Menu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .header .logo {
+      height: 40px;
+    }
+
+    .header nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background-color: #00704A;
+      padding: 40px 20px;
+      color: white;
+    }
+
+    .section {
+      background-color: #ffffff;
+      color: #000;
+      margin: 20px;
+      border-radius: 10px;
+      width: 300px;
+      overflow: hidden;
+    }
+
+    .section img {
+      width: 100%;
+      height: auto;
+    }
+
+    .section h2 {
+      background-color: #00704A;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      font-size: 1.2em;
+    }
+
+    .section p {
+      padding: 10px;
+      font-size: 0.95em;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #00704A;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <img src="https://upload.wikimedia.org/wikipedia/sco/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1200px-Starbucks_Corporation_Logo_2011.svg.png" class="logo" alt="Starbucks Logo">
+    <nav>
+      <a href="#">Menu</a>
+      <a href="#">Rewards</a>
+      <a href="#">Gift Cards</a>
+      <a href="#" class="button">Join now</a>
+    </nav>
+  </div>
+
+  <div class="container">
+    <div class="section">
+      <img src="https://images.unsplash.com/photo-1612197522544-b93b0c72a3e5?fit=crop&w=600&q=80" alt="Drink">
+      <h2>secret menu</h2>
+      <p>The secret menu just dropped. Only in the Starbucks app. Join Starbucks® Rewards.</p>
+    </div>
+
+    <div class="section">
+      <img src="https://images.unsplash.com/photo-1622037153930-061ab60e1a89?fit=crop&w=600&q=80" alt="Drink">
+      <h2>enter the secret menu contest</h2>
+      <p>Submit your favorite customization to win a $25,000 grand prize.</p>
+    </div>
+  </div>
+
+</body>
+</html>
+
+
+.container{
+  background-color: #00704A;
+  display: flex;
+  flex-direction: column;
+  text-align:center;
+  
+ 
+}
+
+.one,.two{
+ width: 700px;
+ height: 700px;
+ float:right;
+}
+.img{
+ display: flex;
+ flex-direction: row;
+ justify-content: left;
+ flex-wrap: wrap-reverse;
+}
